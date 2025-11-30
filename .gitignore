@@ -51,6 +51,15 @@ coverage.xml
 .pytest_cache/
 cover/
 
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
 # Translations
 *.mo
 *.pot
@@ -215,6 +224,31 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# Custom
-canvas_cookies.json
+# Canvas Downloads
 CanvasDownloads/
+
+# Log files
+logs/
+*.log
+
+# Data files
+data/
+
+# Configuration files
+config.json
+canvas_cookies.json
+
+# IDE-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
