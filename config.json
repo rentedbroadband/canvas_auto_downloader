@@ -1,0 +1,12 @@
+{
+    "BASE_URL": "https://canvas.instructure.com",
+    "COOKIES_FILE": "canvas_cookies.json",
+    "DOWNLOAD_DIR": "CanvasDownloads",
+    "WAIT_BETWEEN_REQUESTS": 0.5,
+    "SCRIPT_LOG_FILE": "logs/script.log",
+    "MAX_LOG_FILES": 5,
+    "DATA_FILE": "data/canvas_data.json",
+    "static_settings": false,
+    "always_reindex": false,
+    "always_redownload": false
+}
